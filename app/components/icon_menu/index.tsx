@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MobileMenu } from "../mobile_menu";
 
 export function Mobile_menu() {
-  const [activeMenu, setActiveMenu] = useState(true);
+  const [activeMenu, setActiveMenu] = useState(false);
 
   return (
     <div>
